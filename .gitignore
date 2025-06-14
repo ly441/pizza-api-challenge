@@ -1,0 +1,45 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.venv/
+env/
+ENV/
+env.bak/
+
+# Flask instance folder
+instance/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Alembic migration files
+migrations/
+alembic.ini
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage & cache
+.coverage
+htmlcov/
+.cache/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
