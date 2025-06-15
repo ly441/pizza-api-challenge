@@ -1,4 +1,5 @@
-from db.database import db
+from server.db.database import db
+
 
 class Pizza(db.Model):
     __tablename__ = 'pizzas'

@@ -5,5 +5,5 @@ class Restaurant(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), unique=True, nullable=False)
     address = db.Column(db.String(255), nullable=False)
-    
-    pizzas = db.relationship('RestaurantPizza', back_populates='restaurant', cascade='all, delete-orphan')
+
+    pizzas = db.relationship('RestaurantPizza', back_populates='restaurant', cascade='all, delete-orphan', passive_deletes=True)
