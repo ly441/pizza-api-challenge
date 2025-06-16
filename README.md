@@ -126,6 +126,17 @@ The API will be available at `http://localhost:5555/`.
 
 - Use `flask db migrate` and `flask db upgrade` to manage schema changes.
 - Use `python -m server.seed` to reset and seed the database.
+# Pizza Restaurant API
+
+## Setup
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+export FLASK_APP=server/app.py
+flask db upgrade
+python server/seed.py
+flask run --port=5555
 
 ## License
 

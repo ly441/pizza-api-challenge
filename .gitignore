@@ -19,9 +19,7 @@ instance/
 *.db
 *.sqlite3
 
-# Alembic migration files
-migrations/
-alembic.ini
+
 
 # VS Code settings
 .vscode/
@@ -43,3 +41,8 @@ htmlcov/
 *.egg-info/
 dist/
 build/
+__pycache__/
+# PyInstaller
+venv/
+.env
+*.pyc
